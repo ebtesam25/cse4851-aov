@@ -1,4 +1,4 @@
-package aov.editor;
+package aov.draw;
 
 import aov.shapes.Compound;
 import aov.shapes.Shape;
@@ -9,11 +9,11 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class ImageEditor {
+public class Draw {
     private EditorCanvas canvas;
     private Compound allShapes = new Compound();
 
-    public ImageEditor() {
+    public Draw() {
         canvas = new EditorCanvas();
     }
 

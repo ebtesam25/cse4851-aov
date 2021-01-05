@@ -25,6 +25,6 @@ public class Rectangle extends BaseShape {
     @Override
     public void paint(Graphics graphics) {
         super.paint(graphics);
-        graphics.drawRect(x, y, getWidth() - 1, getHeight() - 1);
+        graphics.fillRect(x, y, getWidth() - 1, getHeight() - 1);
     }
 }

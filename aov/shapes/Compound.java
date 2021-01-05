@@ -128,7 +128,7 @@ public class Compound extends BaseShape {
     public void paint(Graphics graphics) {
         if (isSelected()) {
             enableSelectionStyle(graphics);
-            graphics.drawRect(getX() - 1, getY() - 1, getWidth() + 1, getHeight() + 1);
+            graphics.fillRect(getX() - 1, getY() - 1, getWidth() + 1, getHeight() + 1);
             disableSelectionStyle(graphics);
         }
 
