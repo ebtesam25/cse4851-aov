@@ -3,7 +3,6 @@ package aov.shapes;
 import aov.draw.Draw;
 import aov.shapes.Circle;
 import aov.shapes.Compound;
-import aov.shapes.Dot;
 import aov.shapes.Rectangle;
 import aov.shapes.Triangle;
 
